@@ -7,7 +7,7 @@ if __name__ == '__main__':
     q = list(p)
 
     if len(p) > 10:
-        for i in range(0, len(p)):
+        for i, item in enumerate(p):
             q[i] = p[i] * i
 
         for i in range(2, 10):
